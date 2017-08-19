@@ -1,0 +1,16 @@
+body {
+  background: #D25697;
+  font-size: 16px;
+}
+
+#main {
+  text-align: center;
+  font-size: 400%;
+  color: #473A41;
+  text-shadow: 1px -1px #CFBEC7;
+  font-family: 'Architects Daughter', cursive;
+  /*
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
+  */
+}
