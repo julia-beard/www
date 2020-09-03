@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #B22E68;
+}
+
+#main {
+  text-align: center;
+  font-size: 4em;
+  color: #ffffff;
+  font-family: 'Aldrich', sans-serif;
+  background: #323232;
+  padding: 20px;
+}
