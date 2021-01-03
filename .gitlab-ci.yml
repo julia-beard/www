@@ -35,7 +35,15 @@ deploy:
     - minify
   script:
     - aws s3 sync .
-      s3://$S3_BUCKET_NAME
+      s3://s3-website-juliabeard-net
+      --delete
+      --exclude ".git/*"
+      --exclude ".git*"
+      --exclude ".gitlab-ci.yml"
+      --exclude "README.md"
+      --acl public-read
+    - aws s3 sync .
+      s3://s3-website-juliabeard-me
       --delete
       --exclude ".git/*"
       --exclude ".git*"
