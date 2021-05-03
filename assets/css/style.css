@@ -18,7 +18,21 @@
 }
 
 body {
-  background: #F6ABB6;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #EC91E5, #7E4079);
+	background-size: 400% 400%;
+	animation: gradient 45s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 #main {
@@ -29,5 +43,4 @@ body {
   margin: 0 auto;
   margin-top: 200px;
   color: #FFD4DC;
-  border-bottom: 1px dashed #EEE3E7;
 }
