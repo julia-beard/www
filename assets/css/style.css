@@ -12,27 +12,24 @@
        url('../fonts/aldrich-v11-latin-regular.svg#Aldrich') format('svg'); /* Legacy iOS */
 }
 
+html {
+  box-sizing: border-box;
+  height: 100vh;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #EC91E5, #7E4079);
-	background-size: 400% 400%;
+	background: linear-gradient(#e761bd, #83f5e5);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*
+  background-size: 400% 400%;
 	animation: gradient 45s ease infinite;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  */
 }
 
 #main {
@@ -41,6 +38,6 @@ body {
   font-family: 'Aldrich', sans-serif;
   padding: 20px;
   margin: 0 auto;
-  margin-top: 200px;
-  color: #FFD4DC;
+  margin-top: 100px;
+  color: #ffffff;
 }
